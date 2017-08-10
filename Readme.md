@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Ивелина Чекаурова](https://up.htmlacademy.ru/htmlcss/18/user/452149).
+* Студент: [Ивелина Чекаурова](https://up.htmlacademy.ru/htmlcss/18/user/452149).
 
 ---
 
