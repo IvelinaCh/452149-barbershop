@@ -1,22 +1,30 @@
 ﻿body {
 	font-size: 14px;
-	line-height: 1.714;
-	color: rgb(0, 0, 0);
-	font-weight: bold;
 	font-family: "PTSans", "Arial Narrow", sans-sefir;
-}
-
-.subtitle, .features-title {
-	font-size: 12.757px;
-	line-height: 1.4;
+	color: rgb(0, 0, 0);
 	font-weight: bold;
-	font-family: "PTSans";
+	line-height: 1.714;
 }
 
-.subtitle {
+.subtitle, .white-subtitle, .title {
+	font-size: 12.757px;
+	font-family: "PTSans";
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+.subtitle, .title {
 	color: rgb(0, 0, 0);
 }
 
-.features-title {
+.white-subtitle{
 	color: rgb(247, 244, 241);
 }
+
+.caption {
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.286;
+ }
