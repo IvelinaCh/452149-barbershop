@@ -6,17 +6,17 @@
 	font-family: "PTSans", "Arial Narrow", sans-sefir;
 }
 
-.container h2, .container h3 {
+.subtitle, .features-title {
 	font-size: 12.757px;
 	line-height: 1.4;
 	font-weight: bold;
 	font-family: "PTSans";
 }
 
-.container h2 {
+.subtitle {
 	color: rgb(0, 0, 0);
 }
 
-.container h3 {
+.features-title {
 	color: rgb(247, 244, 241);
 }
