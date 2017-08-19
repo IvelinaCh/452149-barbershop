@@ -19,7 +19,7 @@
 				<li><a href="#">КОНТАКТЫ</a></li>
 			</ul>
 			<ul class="log-in">
-				<li><a href="#">ВХОД</a></li>
+				<li><a href="login.html">ВХОД</a></li>
 			</ul>
 			</nav>
 		</header>
@@ -32,7 +32,7 @@
 					<li class="current-breadcrumbs">НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"</li>
 				</ul>
 				<section class="photo-product">
-					<h2 class="hidden subtitle">Фото товара</h2>
+					<h2 class="visually-hidden subtitle">Фото товара</h2>
 					<p class="photoL"><img src="img/itemBig.jpg" alt="" width="460" height="498"></p>
 					<ul class="photoS">
 						<li><img src="img/itemS.jpg" alt="" width="140" height="149"></li>
@@ -41,7 +41,7 @@
 					</ul>
 				</section>
 				<section class="description">
-					<h2 class="hidden subtitle">Описание товара</h2>
+					<h2 class="visually-hidden subtitle">Описание товара</h2>
 					<p class="have">Есть в наличии</p>
 					<p class="articul">Артикул: DEXTER-AE</p>
 					<p class="description-txt">TRAVEL KIT - Необходимый аксессуар во время любого путешествия. В аккуратной сумке находится все, что нужно для бритья и ухода
@@ -81,24 +81,35 @@
 				<b>РАЗРАБОТАНО:</b>
 				<a class="button" href="#">HTML.ACADEMY</a>
 			</p>
-		</footer>
-		<section class="avtorizate">
-			<h2 class="hidden subtitle">ЛИЧНЫЙ КАБИНЕТ</h2>
-			<p>Введите логин и пароль</p>
-			<form class="form-avtorizate" action="https://echo.htmlacademy.ru" method="post">
-			<p>
-				<input class="login" type="text" name="login" placeholder="Логин">
-			</p>
-			<p>
-				<input class="password" type="password" name="password" placeholder="Пароль">
-			</p>
-			<p>
-				<input class="hidden" type="checkbox" name="remember">Запомнить меня.
-				<a class="foget" href="">Я забыл пароль</a>
-			</p>
-			<button class="btn" type="submit">Войти</button>
-			</form>
-			<span class="close">x</span>
-		</section>
-	</body>
+		</footer>  
+    
+    <section class="modal modal-login">
+      <h2 class="subtitle">Личный кабинет</h2>
+      <p>Введите свой логин и пароль.</p>
+      <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+        <p>
+		  <label class="visually-hidden" for="user-login">Логин</label>
+          <input id="user-login" class="login-icon-user" type="text" name="login" placeholder="Логин">
+        </p>
+        <p>
+		  <label class="visually-hidden" for="user-password">Пароль</label>
+          <input id="user-password" class="login-icon-password" type="password" name="password" placeholder="Пароль">
+        </p>
+        <p class="login-password-info">
+          <label class="login-checkbox">
+		  <input type="checkbox" name="remember" class="visually-hidden">
+          Запомните меня
+		  </label>
+          <a class="restore" href="#">Я забыл пароль!</a>
+        </p>
+        <button class="button" type="submit">Войти</button>
+      </form>
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
+    
+    <section class="modal modal-map">
+      <h2 class="visually-hidden subtitle">Как до нас добраться</h2>
+      <span class="modal-close">x</span>
+    </section>
+  </body>
 </html>

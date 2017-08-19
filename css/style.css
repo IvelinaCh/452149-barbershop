@@ -6,14 +6,17 @@
 	line-height: 1.714;
 }
 
-.subtitle, .white-subtitle, .title {
+.subtitle, 
+.white-subtitle, 
+.title {
 	font-size: 12.757px;
 	font-family: "PTSans";
 	font-weight: bold;
 	line-height: 1.4;
 }
 
-.subtitle, .title {
+.subtitle, 
+.title {
 	color: rgb(0, 0, 0);
 }
 
@@ -22,9 +25,9 @@
 }
 
 .caption {
-  font-size: 14px;
-  font-family: "PTSans";
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  line-height: 1.286;
+	font-size: 14px;
+	font-family: "PTSans";
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	line-height: 1.286;
  }
